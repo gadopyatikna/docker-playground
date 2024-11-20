@@ -7,7 +7,7 @@ public class Program
         var t = args.FirstOrDefault();
         if (t == null || t == "RawSocket")
             new RawSocketSniffer().Sniff();
-        else 
+        else
             new DeviceSniffer().Sniff();
     }
 }
